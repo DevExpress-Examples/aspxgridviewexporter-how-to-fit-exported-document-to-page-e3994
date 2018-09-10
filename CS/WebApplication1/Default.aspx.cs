@@ -7,6 +7,7 @@ using System.Web.UI.WebControls;
 using System.IO;
 using DevExpress.XtraPrinting;
 using System.Net.Mime;
+using DevExpress.XtraPrintingLinks;
 
 namespace WebApplication1
 {
@@ -20,12 +21,12 @@ namespace WebApplication1
         protected void ASPxButton1_Click(object sender, EventArgs e)
         {
             using(MemoryStream ms = new MemoryStream()){
-                PrintableComponentLink pcl = new PrintableComponentLink(new PrintingSystem());
+                PrintableComponentLinkBase pcl = new PrintableComponentLinkBase(new PrintingSystemBase());
                 pcl.Component = ASPxGridViewExporter1;
                 pcl.Margins.Left = pcl.Margins.Right = 50;
                 pcl.Landscape = true;
                 pcl.CreateDocument(false);
-                pcl.PrintingSystem.Document.AutoFitToPagesWidth = 1;
+                pcl.PrintingSystemBase.Document.AutoFitToPagesWidth = 1;
                 pcl.ExportToPdf(ms);
                 WriteResponse(this.Response, ms.ToArray(), System.Net.Mime.DispositionTypeNames.Inline.ToString());
             }
