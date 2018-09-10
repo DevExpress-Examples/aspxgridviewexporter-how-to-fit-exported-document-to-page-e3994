@@ -7,6 +7,7 @@ Imports System.Web.UI.WebControls
 Imports System.IO
 Imports DevExpress.XtraPrinting
 Imports System.Net.Mime
+Imports DevExpress.XtraPrintingLinks
 
 Namespace WebApplication1
     Partial Public Class _Default
@@ -18,13 +19,13 @@ Namespace WebApplication1
 
         Protected Sub ASPxButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
             Using ms As New MemoryStream()
-                Dim pcl As New PrintableComponentLink(New PrintingSystem())
+                Dim pcl As New PrintableComponentLinkBase(New PrintingSystemBase())
                 pcl.Component = ASPxGridViewExporter1
                 pcl.Margins.Right = 50
                 pcl.Margins.Left = pcl.Margins.Right
                 pcl.Landscape = True
                 pcl.CreateDocument(False)
-                pcl.PrintingSystem.Document.AutoFitToPagesWidth = 1
+                pcl.PrintingSystemBase.Document.AutoFitToPagesWidth = 1
                 pcl.ExportToPdf(ms)
                 WriteResponse(Me.Response, ms.ToArray(), System.Net.Mime.DispositionTypeNames.Inline.ToString())
             End Using
