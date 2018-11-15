@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Default.aspx](./CS/WebApplication1/Default.aspx) (VB: [Default.aspx](./VB/WebApplication1/Default.aspx))
+* [Default.aspx.cs](./CS/WebApplication1/Default.aspx.cs) (VB: [Default.aspx](./VB/WebApplication1/Default.aspx))
+* [Global.asax](./CS/WebApplication1/Global.asax) (VB: [Global.asax](./VB/WebApplication1/Global.asax))
+* [Global.asax.cs](./CS/WebApplication1/Global.asax.cs) (VB: [Global.asax](./VB/WebApplication1/Global.asax))
+<!-- default file list end -->
 # ASPxGridViewExporter - how to fit exported document to page
 
 
