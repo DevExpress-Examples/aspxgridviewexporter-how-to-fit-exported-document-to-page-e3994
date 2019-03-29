@@ -58,7 +58,7 @@ namespace WebApplication1
 
         }
 
-        protected void ASPxGridView1_HtmlFooterCellPrepared(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewTableFooterCellEventArgs e)
+        protected void ASPxGridView1_HtmlFooterCellPrepared(object sender, DevExpress.Web.ASPxGridViewTableFooterCellEventArgs e)
         {
 
         }

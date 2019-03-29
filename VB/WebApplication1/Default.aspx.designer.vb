@@ -46,7 +46,7 @@ Namespace WebApplication1
         ''' Auto-generated field.
         ''' To modify move field declaration from designer file to code-behind file.
         ''' </remarks>
-        Protected ASPxButton1 As Global.DevExpress.Web.ASPxEditors.ASPxButton
+        Protected ASPxButton1 As Global.DevExpress.Web.ASPxButton
 
         ''' <summary>
         ''' ASPxGridViewExporter1 control.
@@ -55,7 +55,7 @@ Namespace WebApplication1
         ''' Auto-generated field.
         ''' To modify move field declaration from designer file to code-behind file.
         ''' </remarks>
-        Protected ASPxGridViewExporter1 As Global.DevExpress.Web.ASPxGridView.Export.ASPxGridViewExporter
+        Protected ASPxGridViewExporter1 As Global.DevExpress.Web.ASPxGridViewExporter
 
         ''' <summary>
         ''' ASPxGridView1 control.
@@ -64,6 +64,6 @@ Namespace WebApplication1
         ''' Auto-generated field.
         ''' To modify move field declaration from designer file to code-behind file.
         ''' </remarks>
-        Protected ASPxGridView1 As Global.DevExpress.Web.ASPxGridView.ASPxGridView
+        Protected ASPxGridView1 As Global.DevExpress.Web.ASPxGridView
     End Class
 End Namespace

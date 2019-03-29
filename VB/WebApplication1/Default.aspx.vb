@@ -52,7 +52,7 @@ Namespace WebApplication1
 
         End Sub
 
-        Protected Sub ASPxGridView1_HtmlFooterCellPrepared(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridView.ASPxGridViewTableFooterCellEventArgs)
+        Protected Sub ASPxGridView1_HtmlFooterCellPrepared(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridViewTableFooterCellEventArgs)
 
         End Sub
 
