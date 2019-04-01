@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="vb" AutoEventWireup="true"
+﻿<%@ Page Title="Home Page" Language="C#" AutoEventWireup="true"
     CodeBehind="Default.aspx.vb" Inherits="WebApplication1._Default" %>
 
 <%@ Register Assembly="DevExpress.Web.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
