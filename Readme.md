@@ -7,6 +7,9 @@
 * [Global.asax.cs](./CS/WebApplication1/Global.asax.cs) (VB: [Global.asax](./VB/WebApplication1/Global.asax))
 <!-- default file list end -->
 # ASPxGridViewExporter - how to fit exported document to page
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e3994/)**
+<!-- run online end -->
 
 
 <p>This example illustrates how to use XtraPrinting's <a href="http://documentation.devexpress.com/#CoreLibraries/DevExpressXtraPrintingDocument_AutoFitToPagesWidthtopic"><u>Document.AutoFitToPagesWidth</u></a> property to adjust width of an exported document to occupy a single page.<br />
